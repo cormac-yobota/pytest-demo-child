@@ -14,6 +14,6 @@ setup(
     dependency_links=DEPENDENCY_LINKS,
     install_requires=INSTALL_REQUIRES, 
     name = "pytest-demo-child",
-    url = "http://packages.python.org/an_example_pypi_project"
+    url = "https://github.com/cormac-yobota/pytest-demo-child/"
 )
 
