@@ -1,0 +1,2 @@
+pytest==3.1.1
+-e git+https://github.com/cormac-yobota/pytest-demo-child.git@master#egg=pytest-demo-child
