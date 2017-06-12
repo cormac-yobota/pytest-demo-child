@@ -1,10 +1,12 @@
 import os
 from setuptools import setup
+
 DEPENDENCY_LINKS = [
     "-e git+https://github.com/cormac-yobota/pytest-demo-parent.git@master#egg=pytest-demo-parent"
 ]
 INSTALL_REQUIRES = [
-    "pytest-demo-parent"
+    "pytest-demo-parent",
+    "pytest"
 ]
 
 setup(
